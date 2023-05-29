@@ -1,0 +1,345 @@
+#headerFont{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+#secondaryFont{
+    font-family: helvetica 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+}
+#HeaderLogo{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+h1.header{
+
+
+font-size: 125px;
+text-align: center;
+color: white;
+border-style: solid;
+border-width: 1px;
+border-color: gray;
+background-color: rgba(147, 204, 181, .5);
+background-blend-mode: darken;
+margin-left: -5px;
+margin-right: -5px;
+}
+ul{
+text-align: center;
+border-color: gray;
+list-style:none;
+
+border-width: 1px;
+
+}
+img{
+    
+    border-radius: 2px;
+}
+li{
+    display: inline-block;
+   
+    /* border-color: white;
+    border-width: .005px; */
+    box-shadow: 0px 0px 5px 2px rgb(17, 16, 16);
+    /* padding-right: 2px; */
+}
+   
+    
+
+a.header{
+
+    size: 20px 40px;
+   
+}
+a{
+    color: white;
+
+}
+.center{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    
+}
+#imgborder{
+    border-style: double;
+    border-color: brown;
+    /* border-radius: 15px; */
+    border-width: 10px;
+}
+body{
+    background-color: #0E111A;
+    background-blend-mode:normal;
+    /* background-image: url('./image ref/homeBackground.jpg'); */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    
+}
+img{
+    width: 400px;
+    height: auto;
+}
+#header{
+    width: auto;
+    height: 100px;
+
+    /* margin: -10px; */
+}
+
+
+
+#headerDiv{
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position:sticky;  
+    top: 0px;
+    border-top-style: solid;
+    border-bottom: solid;
+    border-color: white;
+    /* display: block; */
+    border-width: 1px;
+    max-width: 1440px;
+    /* box-sizing: border-box; */
+    padding-left: 500px;
+    padding-right: 500px;
+    box-shadow: 0px 0px 10px 5px rgb(12, 11, 11);
+    background-color: rgb(19, 20, 36);
+    /* width: 1440px; */
+}
+
+.bottom{
+    border-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    background-color: rgba(14, 17, 26, .9);
+
+    /* border-color: white; */
+    text-align: center;
+    bottom: 0;
+    color: white;
+    border-color: rgb(63, 49, 116);
+    border-width: 1px;
+
+
+    position: fixed;     
+    text-align: center;    
+    bottom: 0px; 
+    width: 100%;
+
+    border-block-end: solid 1rem rgb(35, 44, 71);
+
+    
+    /* margin-right: -5px; */
+}
+#bottomSources {
+    text-align: center;
+    text-decoration: none;
+    border-style: none;
+    background-color: rgba(56, 74, 90, .8);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+
+img.galleryPics{
+    height: auto;
+    width: 5px;
+}
+.center img#galleryPicsID:hover{
+    border-style: solid;
+    border-width: .5px;
+    border-color: rgb(63, 49, 116);
+}
+
+#galleryPicsID{
+    object-fit: cover;
+    width: 200px;
+    height: 400px;
+}
+
+tr{
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+border-color: gray;
+list-style:none;
+
+border-width: 1px;
+    
+}
+
+td{
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+border-color: gray;
+list-style:none;
+
+border-width: 1px;
+    
+}
+
+#contactMe{
+   
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+#ContactBorder{
+    text-decoration: none;
+    margin: auto;
+    font-size: 50px;
+    border-style: double;
+    border-color: white;
+    padding: 10px;
+    background-color: rgb(63, 49, 116);
+    box-shadow: 0px 0px 20px 0px rgb(6, 7, 10);
+}
+
+/* .aboutMeMargin{
+    margin-left: 10px;
+    margin-right: 10px;
+} */
+
+#decarusHeader{
+    /* font-family: helvetica 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-top-style: hidden;
+    /* background-image: url("./image ref/gallery images/lucy\ dream\ with\ sig.jpg"); */
+    text-shadow: 2px 2px red;
+    border-top-color: white;
+    /* border-width: 1px; */
+    background-color: rgb(24, 25, 46);
+    font-size: 80px;
+    padding: 10px;
+}
+
+#whoAmI{
+    
+    font-size: 30px;
+
+    /* background-image: url("./image ref/gallery images/lucy\ dream\ with\ sig.jpg"); */
+}
+
+#Paragraph{
+
+    margin-left: 500px;
+    margin-right: 500px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color:  rgb(63, 49, 116);
+    background-color: rgb(26, 29, 46);
+    font-size: 20px;
+    border-width: 1px;
+    box-shadow: 0px 0px 5px 0px rgb(63, 49, 116);
+    /* padding: 5px; */
+
+}
+
+#backgroundColor{
+    background-color: rgb(20, 24, 36);
+    border-block-end: solid 200px rgb(20, 24, 36);
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+input{
+    display: block;
+    margin: auto;
+    /* margin-right: -80px; */
+    padding: 10px;
+}
+
+button{
+
+    padding: 10px;
+
+}
+
+#ContactForm{
+     /* background-color: red; */
+    text-align: center;
+    background-image: url("./image ref/gallery images/kimono.jpg");
+    background-size: cover;
+    background-position: -500px;
+    /* background-repeat: no-repeat; */
+    /* background-size: 50%; */
+    margin: 0px 0px 0px ;
+    /* margin-left: 50px; */
+
+}
+
+.FormCenter{
+    
+    margin-top: 100px;
+    text-align: center;
+}
+
+#Message{
+    display: block;
+    /* text-align:start; */
+    width: 800px;
+    height: 200px;
+    /* padding: 100px */
+}
+
+#introBackground{background-image: url("./image ref/gallery images/JC.jpg");
+    
+    /* background-position: 10px; */
+    /* margin-left: 500px; */
+    /* opacity: 0.3; */
+}
+
+#introWelcome { 
+    color: rgb(42, 63, 108);
+    font-size:150px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: rgb(232, 223, 220);
+    border-radius: 10px;
+    padding: 10px 20px
+
+}
+
+#welcomeDiv a#introWelcome:hover{
+    box-shadow: 0px 0px 50px 0px black;}
+
+#welcomeDiv{
+    margin-top: 200px;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+#headerFont a#lightUp:hover{
+    border-bottom-style: double;
+    border-width: 5px;
+    border-color: rgb(81, 61, 151);
+}
+
+#welcomeDiv a#introWelcome:hover ~ #introBackground{
+    background-image: url("./image ref/gallery images/.jpg");
+}
+
+.justBlack{
+    padding: 20px;
+    background-color: rgb(36, 51, 83);
+
+}
+
+
